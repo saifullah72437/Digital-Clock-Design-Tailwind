@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'bagafont';
+    src: url(./digital-7.ttf);
+}
+
+.time{
+font-family: bagafont;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="main w-screen h-screen bg-[#dbe5e7] flex justify-center items-center flex-col">
+        <button class="h-20 w-[50%] bg-gradient-to-r from-[#00fafb] text-4xl text-white  to-[#010b0c] rounded-lg " >Switch Theme</button>
+        <div class="clock dark:bg-[#2a2e39] bg-[#f4f4f4] shadow-xl h-[40%] w-[50%] mt-5 flex justify-center items-center">
+            <div class="dark:bg-[#0f1620]  box border-4 border-black h-[60%] w-[80%] rounded-md bg-[#dddddd] " >
+                <div class="days flex justify-around px-9 font-mon">
+                    <p class="text-black text-xl dark:text-white">MON</p>
+                    <p class="text-gray-500 text-xl">TUE</p>
+                    <p class="text-gray-500 text-xl">WED</p>
+                    <p class="text-gray-500 text-xl">THU</p>
+                    <p class="text-gray-500 text-xl">FRI</p>
+                    <p class="text-gray-500 text-xl">SAT</p>
+                    <p class="text-gray-500 text-xl">SUN</p>
+                </div>
+
+                <div class="time h-[90%] dark:text-white w-[100%] text-8xl flex justify-center items-center pb-4">
+                    <p>12:30:12 <sub class="text-2xl">pm</sub></p>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
