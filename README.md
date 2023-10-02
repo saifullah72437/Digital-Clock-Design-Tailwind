@@ -1,5 +1,5 @@
 # Digital-Clock-Design-Tailwind
-I designed this digital clock using tailwind css
+I designed this digital clock using tailwind css I learn a lot from this project
 # Screen Shot 1 (light mode)
 
 ![clock light](https://github.com/saifullah72437/Digital-Clock-Design-Tailwind/assets/73275780/5a50c87d-c704-4570-9bcb-1b0a8491e25f)
